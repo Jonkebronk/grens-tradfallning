@@ -38,18 +38,7 @@ export function ContactForm() {
       setSubmitted(true);
       return;
     }
-    const formId = process.env.NEXT_PUBLIC_FORMSPREE_ID;
-    if (!formId) {
-      // Fallback: open mailto
-      const subject = encodeURIComponent("Offertförfrågan från hemsidan");
-      const body = encodeURIComponent(
-        `Namn: ${data.name}\nTelefon: ${data.phone}\nE-post: ${data.email}\n\nMeddelande:\n${data.message}`
-      );
-      window.location.href = `mailto:markus.gren90@gmail.com?subject=${subject}&body=${body}`;
-      return;
-    }
-
-    const res = await fetch(`https://formspree.io/f/${formId}`, {
+    const res = await fetch("/api/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
