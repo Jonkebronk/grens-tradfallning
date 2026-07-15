@@ -38,7 +38,7 @@ export function ContactSection() {
                     className="flex items-center gap-3 text-foreground/70 hover:text-nature-700 transition-colors"
                   >
                     <Phone className="h-5 w-5 text-nature-600 shrink-0" />
-                    <span className="font-semibold">{COMPANY.phone}</span>
+                    {COMPANY.phone}
                   </a>
                   <a
                     href={`mailto:${COMPANY.email}`}
