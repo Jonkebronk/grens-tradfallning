@@ -102,7 +102,7 @@ export function Footer() {
                 className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
               >
                 <InstagramIcon className="h-4 w-4" />
-                @{COMPANY.instagram}
+                Instagram
               </a>
               <a
                 href={COMPANY.facebookUrl}
