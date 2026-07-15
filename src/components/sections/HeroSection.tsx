@@ -1,6 +1,6 @@
 "use client";
 
-import { Phone, ArrowDown } from "lucide-react";
+import { Phone, ArrowDown, Star } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { trackEvent } from "@/components/shared/Analytics";
 import { COMPANY } from "@/lib/constants";
@@ -73,16 +73,13 @@ export function HeroSection() {
           {/* Trust badges */}
           <ScrollReveal delay={0.3}>
             <div className="mt-10 flex flex-wrap gap-4">
-              {[
-                "RUT-avdrag 50%",
-              ].map((badge) => (
-                <span
-                  key={badge}
-                  className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm border border-nature-200 rounded-full text-sm font-medium text-nature-700"
-                >
-                  {badge}
-                </span>
-              ))}
+              <span className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm border border-nature-200 rounded-full text-sm font-medium text-nature-700">
+                RUT-avdrag 50%
+              </span>
+              <span className="inline-flex items-center gap-1 px-4 py-2 bg-white/80 backdrop-blur-sm border border-amber-200 rounded-full text-sm font-medium text-amber-700">
+                <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
+                5/5 stjärnor
+              </span>
             </div>
           </ScrollReveal>
         </div>

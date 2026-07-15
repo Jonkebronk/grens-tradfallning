@@ -6,6 +6,7 @@ import { AboutSection } from "@/components/sections/AboutSection";
 import { GallerySection } from "@/components/sections/GallerySection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { ContactSection } from "@/components/sections/ContactSection";
+import { FAQSection } from "@/components/sections/FAQSection";
 import { MessengerButton } from "@/components/shared/MessengerButton";
 import { MobileBottomBar } from "@/components/shared/MobileBottomBar";
 
@@ -19,6 +20,7 @@ export default function Home() {
         <ServicesSection />
         <AboutSection />
         <GallerySection />
+        <FAQSection />
         <ContactSection />
       </main>
       <Footer />

@@ -25,6 +25,7 @@ export function MobileBottomBar() {
           {/* Begär offert */}
           <a
             href="#kontakt"
+            onClick={() => trackEvent("click", "offert", "mobile_bar")}
             className="flex-1 flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold text-sm py-3 rounded-xl transition-colors"
           >
             <FileText className="h-4 w-4" />
@@ -36,6 +37,7 @@ export function MobileBottomBar() {
             href={COMPANY.messengerUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackEvent("click", "messenger", "mobile_bar")}
             className="flex-1 flex items-center justify-center gap-2 bg-[#0084FF] hover:bg-[#0073E6] text-white font-semibold text-sm py-3 rounded-xl transition-colors"
           >
             <MessageCircle className="h-4 w-4" />
