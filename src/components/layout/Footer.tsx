@@ -82,8 +82,21 @@ export function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-white/10 text-center text-sm text-white/40">
-          &copy; {new Date().getFullYear()} {COMPANY.name}. Alla rättigheter
-          förbehållna.
+          <p>
+            &copy; {new Date().getFullYear()} {COMPANY.name}. Alla rättigheter
+            förbehållna.
+          </p>
+          <p className="mt-1">
+            Webbplats av{" "}
+            <a
+              href="https://www.nortropic.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-white transition-colors"
+            >
+              Nortropic
+            </a>
+          </p>
         </div>
       </div>
     </footer>
