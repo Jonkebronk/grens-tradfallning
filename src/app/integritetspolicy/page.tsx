@@ -76,12 +76,11 @@ export default function IntegritetspolicyPage() {
             </p>
 
             <h2 className="font-heading text-xl font-semibold text-nature-900 mt-8">
-              Analys av webbplatstrafik
+              Cookies och spårning
             </h2>
             <p>
-              Denna webbplats använder Plausible Analytics, en cookiefri
-              analysplattform som inte samlar in personuppgifter. Ingen
-              cookiebanner behövs eftersom inga cookies sätts.
+              Denna webbplats använder ingen spårning och sätter inga cookies.
+              Ingen cookiebanner behövs.
             </p>
 
             <h2 className="font-heading text-xl font-semibold text-nature-900 mt-8">

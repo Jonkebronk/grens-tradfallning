@@ -57,6 +57,9 @@ export const metadata: Metadata = {
       "Snabb, säker och prisvärd trädfällning i Luleå med RUT-avdrag. Ring 072-200 44 13.",
     images: [`${SITE_URL}/images/og-image.jpg`],
   },
+  ...(process.env.NEXT_PUBLIC_GSC_ID
+    ? { verification: { google: process.env.NEXT_PUBLIC_GSC_ID } }
+    : {}),
 };
 
 const localBusinessJsonLd = JSON.stringify({
