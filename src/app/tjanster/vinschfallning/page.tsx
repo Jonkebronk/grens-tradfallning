@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Vinschfällning i Luleå | Grens Trädfällning",
   description:
     "Vinschassisterad fällning av lutande och riskträd i Luleå. Laski-vinsch för kontrollerad fällriktning. RUT-avdrag. Ring 072-200 44 13.",
+  alternates: { canonical: "https://grenstradfallning.se/tjanster/vinschfallning" },
   openGraph: {
     title: "Vinschfällning i Luleå | Grens Trädfällning",
     description: "Säker vinschfällning av lutande och riskträd i Luleå med omnejd.",
@@ -25,11 +26,11 @@ export default function VinschfallningPage() {
       ]}
       images={[
         {
-          src: "/images/gallery/4-vinschning-tall.png",
+          src: "/images/gallery/4-vinschning-tall.jpg",
           alt: "Vinschassisterad fällning av tall i Luleå",
         },
         {
-          src: "/images/gallery/5-husqvarna-sag.png",
+          src: "/images/gallery/5-husqvarna-sag.jpg",
           alt: "Husqvarna motorsåg vid vinschfällning",
         },
       ]}

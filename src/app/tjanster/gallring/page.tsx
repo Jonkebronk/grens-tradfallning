@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Gallring av tomt i Luleå | Grens Trädfällning",
   description:
     "Gallring av tomter i Luleå och Norrbotten. Öka ljusinsläppet och frigör kvällssolen. RUT-avdrag på arbetskostnaden. Ring 072-200 44 13.",
+  alternates: { canonical: "https://grenstradfallning.se/tjanster/gallring" },
   openGraph: {
     title: "Gallring av tomt i Luleå | Grens Trädfällning",
     description: "Professionell gallring i Luleå. Mer ljus, friare tomt. RUT-avdrag.",
@@ -25,11 +26,11 @@ export default function GallringPage() {
       ]}
       images={[
         {
-          src: "/images/gallery/1-gallring-skog.png",
+          src: "/images/gallery/1-gallring-skog.jpg",
           alt: "Gallring i skogen i Luleå – full skyddsutrustning",
         },
         {
-          src: "/images/gallery/6-fallt-trad.png",
+          src: "/images/gallery/6-fallt-trad.jpg",
           alt: "Gallring av tomt – fällt träd vid fastighet",
         },
       ]}

@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Trädfällning i Luleå | Grens Trädfällning",
   description:
     "Professionell trädfällning och precisionsfällning i Luleå med omnejd. Jag hanterar grova tallar, björkar och träd nära hus. RUT-avdrag. Ring 072-200 44 13.",
+  alternates: { canonical: "https://grenstradfallning.se/tjanster/tradfallning" },
   openGraph: {
     title: "Trädfällning i Luleå | Grens Trädfällning",
     description:
@@ -26,15 +27,15 @@ export default function TradfallningPage() {
       ]}
       images={[
         {
-          src: "/images/hero.png",
+          src: "/images/hero.jpg",
           alt: "Trädfällning nära hus i Luleå – Markus Gren med motorsåg",
         },
         {
-          src: "/images/gallery/2-falld-bjork.png",
+          src: "/images/gallery/2-falld-bjork.jpg",
           alt: "Fälld björk på villatomt i Luleå",
         },
         {
-          src: "/images/gallery/3-uppkapad-stam.png",
+          src: "/images/gallery/3-uppkapad-stam.jpg",
           alt: "Noggrant uppkapad björkstam efter trädfällning",
         },
       ]}

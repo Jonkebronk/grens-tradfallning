@@ -17,7 +17,7 @@ export function AboutSection() {
           <ScrollReveal>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/images/markus.png"
+                src="/images/markus.jpg"
                 alt="Markus Gren – ägare av Grens Trädfällning"
                 fill
                 className="object-cover"

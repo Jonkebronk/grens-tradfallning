@@ -76,13 +76,13 @@ export const TESTIMONIALS = [
 ] as const;
 
 export const GALLERY_ITEMS = [
-  { src: "/images/gallery/1-gallring-skog.png", alt: "Gallring i skogen – Markus i full skyddsutrustning" },
-  { src: "/images/gallery/2-falld-bjork.png", alt: "Fälld björk på villatomt i Luleå" },
-  { src: "/images/gallery/3-uppkapad-stam.png", alt: "Noggrant uppkapad björkstam" },
-  { src: "/images/gallery/4-vinschning-tall.png", alt: "Vinschassisterad fällning av tall" },
-  { src: "/images/gallery/5-husqvarna-sag.png", alt: "Husqvarna motorsåg i arbete" },
-  { src: "/images/gallery/6-fallt-trad.png", alt: "Fällt träd vid fastighet" },
-  { src: "/images/gallery/7-motorsag-stubbe.png", alt: "Motorsåg i stubbe efter fällning" },
+  { src: "/images/gallery/1-gallring-skog.jpg", alt: "Gallring i skogen – Markus i full skyddsutrustning" },
+  { src: "/images/gallery/2-falld-bjork.jpg", alt: "Fälld björk på villatomt i Luleå" },
+  { src: "/images/gallery/3-uppkapad-stam.jpg", alt: "Noggrant uppkapad björkstam" },
+  { src: "/images/gallery/4-vinschning-tall.jpg", alt: "Vinschassisterad fällning av tall" },
+  { src: "/images/gallery/5-husqvarna-sag.jpg", alt: "Husqvarna motorsåg i arbete" },
+  { src: "/images/gallery/6-fallt-trad.jpg", alt: "Fällt träd vid fastighet" },
+  { src: "/images/gallery/7-motorsag-stubbe.jpg", alt: "Motorsåg i stubbe efter fällning" },
   { src: "/images/gallery/8-stubbfrasning-laski.jpg", alt: "Stubbfräsning med Laski-maskin" },
 ] as const;
 

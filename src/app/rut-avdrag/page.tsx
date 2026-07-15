@@ -89,8 +89,8 @@ export default function RutAvdragPage() {
               </h2>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
-                  <strong>Gäller:</strong> Trädfällning, beskärning,
-                  stubbfräsning, gallring — på tomt i anslutning till bostad
+                  <strong>Gäller:</strong> Trädfällning, stubbfräsning,
+                  gallring, precisionsfällning — på tomt i anslutning till bostad
                 </li>
                 <li>
                   <strong>Gäller inte:</strong> Material, maskinhyra,

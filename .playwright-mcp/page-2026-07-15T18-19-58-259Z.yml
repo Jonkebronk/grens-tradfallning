@@ -1,0 +1,258 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Grens Trädfällning" [ref=e5] [cursor=pointer]:
+        - /url: "#hem"
+      - navigation [ref=e6]:
+        - link "Hem" [ref=e7] [cursor=pointer]:
+          - /url: "#hem"
+        - link "Omdömen" [ref=e8] [cursor=pointer]:
+          - /url: "#omdomen"
+        - link "Tjänster" [ref=e9] [cursor=pointer]:
+          - /url: "#tjanster"
+        - link "Om mig" [ref=e10] [cursor=pointer]:
+          - /url: "#om-oss"
+        - link "Galleri" [ref=e11] [cursor=pointer]:
+          - /url: "#galleri"
+        - link "Kontakt" [ref=e12] [cursor=pointer]:
+          - /url: "#kontakt"
+      - generic [ref=e13]:
+        - link "072-200 44 13" [ref=e14] [cursor=pointer]:
+          - /url: tel:+46722004413
+        - link "Begär offert" [ref=e17] [cursor=pointer]:
+          - /url: "#kontakt"
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - img "Markus Gren fäller björk nära hus med full skyddsutrustning i Luleå" [ref=e21]
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - paragraph [ref=e26]: Trädfällning i Luleå & Norrbotten
+          - heading "Snabb, säker och prisvärd trädfällning i Luleå med RUT-avdrag" [level=1] [ref=e27]
+          - paragraph [ref=e28]: Jag driver Grens Trädfällning och hjälper privatpersoner och företag med säker och noggrann trädfällning i Luleåområdet. Från första kontakt till sista gren.
+        - generic [ref=e30]:
+          - 'link "Ring mig: 072-200 44 13" [ref=e31] [cursor=pointer]':
+            - /url: tel:+46722004413
+          - link "Begär offert" [ref=e32] [cursor=pointer]:
+            - /url: "#kontakt"
+        - generic [ref=e34]:
+          - generic [ref=e35]: RUT-avdrag 50%
+          - generic [ref=e36]: 5/5 stjärnor
+          - generic [ref=e39]: F-skattsedel
+          - generic [ref=e40]: Försäkrad
+    - generic [ref=e42]:
+      - generic [ref=e44]:
+        - heading "Vad mina kunder säger" [level=2] [ref=e45]
+        - paragraph [ref=e46]: Jag sätter en ära i att leverera kvalitet varje gång.
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - blockquote [ref=e65]: “Utför jobbet snabbt och effektivt med precision! Rekommenderas!”
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: Patrik Persson
+            - generic [ref=e68]: Facebook
+        - generic [ref=e70]:
+          - blockquote [ref=e85]: “Proffsigt utfört! Träden föll precis där de skulle och bortstädningen blev noggrant fixad. Tack för hjälpen!”
+          - generic [ref=e86]:
+            - paragraph [ref=e87]: Karolina Fredriksson
+            - generic [ref=e88]: Facebook
+        - generic [ref=e90]:
+          - blockquote [ref=e105]: “Det blev jäkligt bra! Tack för att du kunde ta dig ut😀”
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: Kund i Luleå skärgård
+            - generic [ref=e108]: Instagram
+    - generic [ref=e110]:
+      - generic [ref=e112]:
+        - heading "Mina tjänster" [level=2] [ref=e113]
+        - paragraph [ref=e114]: Jag erbjuder professionell trädfällning i Luleå med omnejd – allt från enstaka träd till större gallringar.
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - heading "Trädfällning" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Professionell trädfällning inklusive precisionsfällning nära hus och byggnader. Jag hanterar grova tallar, björkar, aspar och flerstammiga träd.
+        - generic [ref=e125]:
+          - heading "Gallring" [level=3] [ref=e130]
+          - paragraph [ref=e131]: Gallring av tomter för ökat ljusinsläpp och frigörande av kvällssol. Jag tar bort skymmande träd med precision.
+        - generic [ref=e133]:
+          - heading "Vinschassisterad fällning" [level=3] [ref=e139]
+          - paragraph [ref=e140]: Säker fällning av lutande och riskträd med Laski-vinsch. Jag hanterar träd med röta och svåra vinklar.
+        - generic [ref=e142]:
+          - heading "Stubbfräsning" [level=3] [ref=e147]
+          - paragraph [ref=e148]: Maskinell stubbfräsning för en ren och plan tomt. Från 1 350 kr för första stubben, därefter 350 kr/stubbe (efter RUT-avdrag).
+          - paragraph [ref=e150]: Från 1 350 kr efter RUT (2 700 kr före avdrag)
+      - generic [ref=e152]:
+        - paragraph [ref=e160]: Ökat ljusinsläpp och frigjord kvällssol på din tomt
+        - paragraph [ref=e164]: Precision runt byggnader – jag bevarar det som ska stå kvar
+        - paragraph [ref=e168]: Vana vid stora och komplicerade träd – grov tall, björk, asp och flerstammiga träd
+    - generic [ref=e170]:
+      - heading "Om mig" [level=2] [ref=e173]
+      - generic [ref=e174]:
+        - img "Markus Gren – ägare av Grens Trädfällning" [ref=e177]
+        - generic [ref=e179]:
+          - heading "Markus Gren" [level=3] [ref=e180]
+          - paragraph [ref=e181]: Jag driver Grens Trädfällning vid sidan av ett heltidsjobb och hjälper privatpersoner och företag med säker och noggrann trädfällning i Luleåområdet. Fokus ligger på personlig och pålitlig service, från första kontakt till sista gren.
+          - paragraph [ref=e182]: Jag åker även ut i skärgården och till mindre orter i Norrbotten. Oavsett om det gäller en grov tall vid huset eller en hel gallring på stugtomten så tar jag mig an jobbet med professionell utrustning och erfarenhet.
+    - generic [ref=e184]:
+      - generic [ref=e186]:
+        - heading "Referensjobb" [level=2] [ref=e187]
+        - paragraph [ref=e188]: Ett urval av genomförda uppdrag i Luleå med omnejd.
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - img "Gallring i skogen – Markus i full skyddsutrustning" [ref=e192]
+          - paragraph [ref=e194]: Gallring i skogen – Markus i full skyddsutrustning
+        - generic [ref=e195]:
+          - img "Fälld björk på villatomt i Luleå" [ref=e196]
+          - paragraph [ref=e198]: Fälld björk på villatomt i Luleå
+        - generic [ref=e199]:
+          - img "Noggrant uppkapad björkstam" [ref=e200]
+          - paragraph [ref=e202]: Noggrant uppkapad björkstam
+        - generic [ref=e203]:
+          - img "Vinschassisterad fällning av tall" [ref=e204]
+          - paragraph [ref=e206]: Vinschassisterad fällning av tall
+        - generic [ref=e207]:
+          - img "Husqvarna motorsåg i arbete" [ref=e208]
+          - paragraph [ref=e210]: Husqvarna motorsåg i arbete
+        - generic [ref=e211]:
+          - img "Fällt träd vid fastighet" [ref=e212]
+          - paragraph [ref=e214]: Fällt träd vid fastighet
+        - generic [ref=e215]:
+          - img "Motorsåg i stubbe efter fällning" [ref=e216]
+          - paragraph [ref=e218]: Motorsåg i stubbe efter fällning
+        - generic [ref=e219]:
+          - img "Stubbfräsning med Laski-maskin" [ref=e220]
+          - paragraph [ref=e222]: Stubbfräsning med Laski-maskin
+    - generic [ref=e224]:
+      - generic [ref=e226]:
+        - heading "Vanliga frågor" [level=2] [ref=e227]
+        - paragraph [ref=e228]: Svar på det du kanske undrar innan du ringer.
+      - generic [ref=e230]:
+        - heading [level=3] [ref=e232]:
+          - button "Vad kostar trädfällning i Luleå?" [ref=e233]
+        - heading [level=3] [ref=e235]:
+          - button "Får man fälla träd på sin egen tomt i Luleå?" [ref=e236]
+        - heading [level=3] [ref=e238]:
+          - button "Vad ingår i RUT-avdraget för trädfällning?" [ref=e239]
+        - heading [level=3] [ref=e241]:
+          - button "Hur snabbt kan du komma för att fälla ett träd?" [ref=e242]
+        - heading [level=3] [ref=e244]:
+          - button "Fäller du träd nära hus och byggnader?" [ref=e245]
+        - heading [level=3] [ref=e247]:
+          - button "Forslar du bort virket och riset?" [ref=e248]
+        - heading [level=3] [ref=e250]:
+          - button "Har du försäkring?" [ref=e251]
+        - heading [level=3] [ref=e253]:
+          - button "Vilka områden arbetar du i?" [ref=e254]
+    - generic [ref=e256]:
+      - generic [ref=e258]:
+        - heading "Kontakta mig" [level=2] [ref=e259]
+        - paragraph [ref=e260]: Berätta om ditt projekt så återkommer jag med en offert.
+      - generic [ref=e261]:
+        - generic [ref=e263]:
+          - textbox [ref=e265]
+          - generic [ref=e266]:
+            - generic [ref=e267]: Namn *
+            - textbox "Namn *" [ref=e268]:
+              - /placeholder: Ditt namn
+          - generic [ref=e269]:
+            - generic [ref=e270]: Telefon *
+            - textbox "Telefon *" [ref=e271]:
+              - /placeholder: 070-123 45 67
+          - generic [ref=e272]:
+            - generic [ref=e273]: E-post
+            - textbox "E-post" [ref=e274]:
+              - /placeholder: din@email.se (valfritt)
+          - generic [ref=e275]:
+            - generic [ref=e276]: Beskriv ditt projekt *
+            - textbox "Beskriv ditt projekt *" [ref=e277]:
+              - /placeholder: Berätta om träden, var de står, ungefärlig storlek...
+          - button "Skicka förfrågan" [ref=e278]
+          - paragraph [ref=e279]:
+            - text: Genom att skicka godkänner du att jag behandlar dina uppgifter för att besvara din förfrågan.
+            - link "Integritetspolicy" [ref=e280] [cursor=pointer]:
+              - /url: /integritetspolicy
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - heading "Kontaktuppgifter" [level=3] [ref=e284]
+            - generic [ref=e285]:
+              - link "072-200 44 13" [ref=e286] [cursor=pointer]:
+                - /url: tel:+46722004413
+              - link "markus.gren90@gmail.com" [ref=e290] [cursor=pointer]:
+                - /url: mailto:markus.gren90@gmail.com
+              - link "@grens_tradfallning" [ref=e294] [cursor=pointer]:
+                - /url: https://instagram.com/grens_tradfallning
+              - link "Facebook" [ref=e298] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61577624627170
+          - generic [ref=e301]:
+            - heading "Verksamhetsområde" [level=3] [ref=e302]
+            - generic [ref=e303]:
+              - generic [ref=e304]: Luleå
+              - generic [ref=e308]: Boden
+              - generic [ref=e312]: Gammelstad
+              - generic [ref=e316]: Persön
+              - generic [ref=e320]: Brändön
+              - generic [ref=e324]: Luleå skärgård
+              - generic [ref=e328]: Norrbotten
+      - iframe [ref=e334]:
+        
+  - contentinfo [ref=e335]:
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - heading "Tjänster" [level=4] [ref=e339]
+          - navigation [ref=e340]:
+            - link "Trädfällning" [ref=e341] [cursor=pointer]:
+              - /url: /tjanster/tradfallning
+            - link "Gallring" [ref=e342] [cursor=pointer]:
+              - /url: /tjanster/gallring
+            - link "Vinschfällning" [ref=e343] [cursor=pointer]:
+              - /url: /tjanster/vinschfallning
+            - link "Stubbfräsning" [ref=e344] [cursor=pointer]:
+              - /url: /tjanster/stubbfrasning
+            - link "RUT-avdrag" [ref=e345] [cursor=pointer]:
+              - /url: /rut-avdrag
+        - generic [ref=e346]:
+          - heading "Områden" [level=4] [ref=e347]
+          - navigation [ref=e348]:
+            - link "Luleå" [ref=e349] [cursor=pointer]:
+              - /url: /omraden/lulea
+            - link "Boden" [ref=e350] [cursor=pointer]:
+              - /url: /omraden/boden
+            - link "Gammelstad" [ref=e351] [cursor=pointer]:
+              - /url: /omraden/gammelstad
+            - link "Persön" [ref=e352] [cursor=pointer]:
+              - /url: /omraden/person
+            - link "Brändön" [ref=e353] [cursor=pointer]:
+              - /url: /omraden/brandon
+            - link "Luleå skärgård" [ref=e354] [cursor=pointer]:
+              - /url: /omraden/lulea-skargard
+        - generic [ref=e355]:
+          - heading "Företaget" [level=4] [ref=e356]
+          - navigation [ref=e357]:
+            - link "Om mig" [ref=e358] [cursor=pointer]:
+              - /url: /#om-oss
+            - link "Referensjobb" [ref=e359] [cursor=pointer]:
+              - /url: /#galleri
+            - link "Omdömen" [ref=e360] [cursor=pointer]:
+              - /url: /#omdomen
+            - link "Kontakt" [ref=e361] [cursor=pointer]:
+              - /url: /#kontakt
+            - link "Integritetspolicy" [ref=e362] [cursor=pointer]:
+              - /url: /integritetspolicy
+        - generic [ref=e363]:
+          - heading "Kontakt" [level=4] [ref=e364]
+          - generic [ref=e365]:
+            - link "072-200 44 13" [ref=e366] [cursor=pointer]:
+              - /url: tel:+46722004413
+            - link "markus.gren90@gmail.com" [ref=e369] [cursor=pointer]:
+              - /url: mailto:markus.gren90@gmail.com
+            - link "Instagram" [ref=e373] [cursor=pointer]:
+              - /url: https://instagram.com/grens_tradfallning
+            - link "Facebook" [ref=e377] [cursor=pointer]:
+              - /url: https://www.facebook.com/profile.php?id=61577624627170
+      - generic [ref=e380]:
+        - paragraph [ref=e381]: © 2026 Grens Trädfällning. Alla rättigheter förbehållna.
+        - paragraph [ref=e382]:
+          - text: Webbplats av
+          - link "Nortropic" [ref=e383] [cursor=pointer]:
+            - /url: https://www.nortropic.se
+  - link "Chatta med mig på Messenger" [ref=e384] [cursor=pointer]:
+    - /url: https://m.me/61577624627170
+    - generic [ref=e387]: Chatta
+  - alert [ref=e388]

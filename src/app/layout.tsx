@@ -3,7 +3,7 @@ import { Poppins, Open_Sans } from "next/font/google";
 import { Analytics } from "@/components/shared/Analytics";
 import "./globals.css";
 
-const SITE_URL = "https://grens-tradfallning.vercel.app";
+const SITE_URL = "https://grenstradfallning.se";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -20,6 +20,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://grenstradfallning.se" },
   title: "Grens Trädfällning | Trädfällning i Luleå med RUT-avdrag",
   description:
     "Snabb, säker och prisvärd trädfällning i Luleå och Norrbotten. Precisionsfällning, gallring, vinschfällning och stubbfräsning med RUT-avdrag. Ring 072-200 44 13 för offert.",

@@ -92,7 +92,7 @@ export function ContactSection() {
         <ScrollReveal className="mt-12 max-w-5xl mx-auto">
           <div className="rounded-xl overflow-hidden shadow-sm border border-nature-200">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d138089.7!2d21.9!3d65.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467f677c34b8f3a1%3A0x4034506de8c8680!2sLule%C3%A5!5e0!3m2!1ssv!2sse!4v1"
+              src="https://www.google-nocookie.com/maps/embed?pb=!1m18!1m12!1m3!1d138089.7!2d21.9!3d65.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467f677c34b8f3a1%3A0x4034506de8c8680!2sLule%C3%A5!5e0!3m2!1ssv!2sse!4v1"
               width="100%"
               height="300"
               style={{ border: 0 }}

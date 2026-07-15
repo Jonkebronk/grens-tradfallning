@@ -22,6 +22,7 @@ type FormData = z.infer<typeof schema>;
 
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [serverError, setServerError] = useState(false);
   const [honeypot, setHoneypot] = useState("");
   const {
     register,
@@ -46,6 +47,8 @@ export function ContactForm() {
     if (res.ok) {
       trackEvent("submit", "contact_form", "offertforfragan");
       setSubmitted(true);
+    } else {
+      setServerError(true);
     }
   }
 
@@ -137,6 +140,14 @@ export function ContactForm() {
         )}
       </div>
 
+      {serverError && (
+        <div className="px-4 py-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">
+          Något gick fel. Försök igen eller ring mig direkt på{" "}
+          <a href="tel:+46722004413" className="font-semibold underline">
+            072-200 44 13
+          </a>
+        </div>
+      )}
       <Button
         type="submit"
         disabled={isSubmitting}

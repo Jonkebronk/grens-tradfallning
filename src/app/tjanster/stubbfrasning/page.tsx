@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Stubbfräsning i Luleå | Grens Trädfällning",
   description:
     "Stubbfräsning i Luleå från 1 350 kr (efter RUT). Maskinell stubbfräsning med Laski-stubbfräs. Ren och plan tomt. Ring 072-200 44 13.",
+  alternates: { canonical: "https://grenstradfallning.se/tjanster/stubbfrasning" },
   openGraph: {
     title: "Stubbfräsning i Luleå | Grens Trädfällning",
     description:
@@ -32,7 +33,7 @@ export default function StubbfrasningPage() {
           alt: "Stubbfräsning med Laski-maskin i Luleå",
         },
         {
-          src: "/images/gallery/7-motorsag-stubbe.png",
+          src: "/images/gallery/7-motorsag-stubbe.jpg",
           alt: "Stubbe efter fällning – redo för stubbfräsning",
         },
       ]}
