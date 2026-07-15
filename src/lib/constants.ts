@@ -87,9 +87,9 @@ export const GALLERY_ITEMS = [
 
 export const NAV_LINKS = [
   { href: "#hem", label: "Hem" },
+  { href: "#omdomen", label: "Omdömen" },
   { href: "#tjanster", label: "Tjänster" },
   { href: "#om-oss", label: "Om mig" },
   { href: "#galleri", label: "Galleri" },
-  { href: "#omdomen", label: "Omdömen" },
   { href: "#kontakt", label: "Kontakt" },
 ] as const;
