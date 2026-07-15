@@ -55,7 +55,7 @@ export function Header() {
             </a>
             <a
               href="#kontakt"
-              className={buttonVariants({ className: "hidden sm:inline-flex bg-amber-600 hover:bg-amber-700 text-white font-semibold" })}
+              className={buttonVariants({ className: "hidden md:inline-flex bg-amber-600 hover:bg-amber-700 text-white font-semibold" })}
             >
               Begär offert
             </a>
