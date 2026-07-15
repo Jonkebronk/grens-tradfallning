@@ -23,7 +23,7 @@ const LOCATION_LINKS = [
 export function Footer() {
   return (
     <footer className="bg-nature-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 pb-24 md:pb-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-10">
           {/* Services */}
           <div>
