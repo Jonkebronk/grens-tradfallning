@@ -25,12 +25,9 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#hem" className="flex items-center gap-1">
-            <span className="font-heading text-base sm:text-xl md:text-2xl font-bold text-nature-800">
-              Grens
-            </span>
-            <span className="hidden sm:inline font-heading text-xl md:text-2xl font-bold text-nature-800">
-              Trädfällning
+          <a href="#hem" className="shrink-0">
+            <span className="font-heading text-sm sm:text-xl md:text-2xl font-bold text-nature-800">
+              Grens Trädfällning
             </span>
           </a>
 
