@@ -2,39 +2,27 @@
 
 import Script from "next/script";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+const PLAUSIBLE_DOMAIN = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN;
 
 export function Analytics() {
-  if (!GA_ID) return null;
+  if (!PLAUSIBLE_DOMAIN) return null;
 
   return (
-    <>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${GA_ID}');
-        `}
-      </Script>
-    </>
+    <Script
+      defer
+      data-domain={PLAUSIBLE_DOMAIN}
+      src="https://plausible.io/js/script.js"
+      strategy="afterInteractive"
+    />
   );
 }
 
-// Helper to track events from components
+// Track custom events via Plausible
 export function trackEvent(action: string, category: string, label?: string) {
-  if (typeof window !== "undefined" && "gtag" in window) {
-    (window as unknown as { gtag: (...args: unknown[]) => void }).gtag(
-      "event",
+  if (typeof window !== "undefined" && "plausible" in window) {
+    (window as unknown as { plausible: (event: string, opts?: { props: Record<string, string> }) => void }).plausible(
       action,
-      {
-        event_category: category,
-        event_label: label,
-      }
+      { props: { category, label: label || "" } }
     );
   }
 }

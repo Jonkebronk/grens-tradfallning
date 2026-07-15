@@ -156,6 +156,13 @@ export function ContactForm() {
         <Send className="h-4 w-4 mr-2" />
         {isSubmitting ? "Skickar..." : "Skicka förfrågan"}
       </Button>
+      <p className="text-xs text-muted-foreground mt-3">
+        Genom att skicka godkänner du att jag behandlar dina uppgifter för att
+        besvara din förfrågan.{" "}
+        <a href="/integritetspolicy" className="underline hover:text-nature-700">
+          Integritetspolicy
+        </a>
+      </p>
     </form>
   );
 }

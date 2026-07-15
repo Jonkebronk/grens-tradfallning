@@ -30,6 +30,18 @@ const FAQ_ITEMS = [
     q: "Fäller du träd nära hus och byggnader?",
     a: "Ja, precisionsfällning nära hus är en av mina specialiteter. Jag använder vinsch och professionell utrustning för att styra fällriktningen och skydda det som ska bevaras.",
   },
+  {
+    q: "Forslar du bort virket och riset?",
+    a: "Ja, jag kan forsla bort ris och grenar. Stammar kapar jag i vedlängder — du bestämmer om du vill behålla veden eller om jag ska ta med den.",
+  },
+  {
+    q: "Har du försäkring?",
+    a: "Ja, jag är försäkrad och godkänd för F-skatt. Skulle något oväntat hända under arbetet är du som kund skyddad.",
+  },
+  {
+    q: "Vilka områden arbetar du i?",
+    a: "Jag arbetar i Luleå, Boden, Gammelstad, Persön, Brändön och Luleå skärgård. Kontakta mig om du är osäker — jag tar mig an jobb i hela Norrbotten.",
+  },
 ];
 
 export function FAQSection() {

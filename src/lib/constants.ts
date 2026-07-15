@@ -49,7 +49,7 @@ export const SERVICES = [
     description:
       "Maskinell stubbfräsning för en ren och plan tomt. Från 1 350 kr för första stubben, därefter 350 kr/stubbe (efter RUT-avdrag).",
     icon: "CircleDot" as const,
-    priceExample: "Från 1 350 kr / stubbe (efter RUT)",
+    priceExample: "Från 1 350 kr efter RUT (2 700 kr före avdrag)",
   },
 ] as const;
 

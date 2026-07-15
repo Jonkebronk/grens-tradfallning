@@ -16,7 +16,7 @@ export function HeroSection() {
       {/* Background image with overlay */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/images/hero.png"
+          src="/images/hero.jpg"
           alt="Markus Gren fäller björk nära hus med full skyddsutrustning i Luleå"
           fill
           className="object-cover"
@@ -79,6 +79,12 @@ export function HeroSection() {
               <span className="inline-flex items-center gap-1 px-4 py-2 bg-white/80 backdrop-blur-sm border border-amber-200 rounded-full text-sm font-medium text-amber-700">
                 <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
                 5/5 stjärnor
+              </span>
+              <span className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm border border-nature-200 rounded-full text-sm font-medium text-nature-700">
+                F-skattsedel
+              </span>
+              <span className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm border border-nature-200 rounded-full text-sm font-medium text-nature-700">
+                Försäkrad
               </span>
             </div>
           </ScrollReveal>

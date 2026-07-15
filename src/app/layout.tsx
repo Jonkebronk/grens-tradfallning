@@ -205,6 +205,30 @@ const faqJsonLd = JSON.stringify({
         text: "Ja, precisionsfällning nära hus är en av mina specialiteter. Jag använder vinsch och professionell utrustning för att styra fällriktningen och skydda det som ska bevaras.",
       },
     },
+    {
+      "@type": "Question",
+      name: "Forslar du bort virket och riset?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Ja, jag kan forsla bort ris och grenar. Stammar kapar jag i vedlängder — du bestämmer om du vill behålla veden eller om jag ska ta med den.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Har du försäkring?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Ja, jag är försäkrad och godkänd för F-skatt. Skulle något oväntat hända under arbetet är du som kund skyddad.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Vilka områden arbetar du i?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Jag arbetar i Luleå, Boden, Gammelstad, Persön, Brändön och Luleå skärgård. Kontakta mig om du är osäker — jag tar mig an jobb i hela Norrbotten.",
+      },
+    },
   ],
 });
 

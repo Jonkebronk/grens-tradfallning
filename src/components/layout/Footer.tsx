@@ -1,33 +1,37 @@
 import { Phone, Mail } from "lucide-react";
 import { InstagramIcon } from "@/components/shared/InstagramIcon";
 import { FacebookIcon } from "@/components/shared/FacebookIcon";
-import { COMPANY, NAV_LINKS, SERVICE_AREAS } from "@/lib/constants";
+import { COMPANY } from "@/lib/constants";
+
+const SERVICE_LINKS = [
+  { href: "/tjanster/tradfallning", label: "Trädfällning" },
+  { href: "/tjanster/gallring", label: "Gallring" },
+  { href: "/tjanster/vinschfallning", label: "Vinschfällning" },
+  { href: "/tjanster/stubbfrasning", label: "Stubbfräsning" },
+  { href: "/rut-avdrag", label: "RUT-avdrag" },
+];
+
+const LOCATION_LINKS = [
+  { href: "/omraden/lulea", label: "Luleå" },
+  { href: "/omraden/boden", label: "Boden" },
+  { href: "/omraden/gammelstad", label: "Gammelstad" },
+  { href: "/omraden/person", label: "Persön" },
+  { href: "/omraden/brandon", label: "Brändön" },
+  { href: "/omraden/lulea-skargard", label: "Luleå skärgård" },
+];
 
 export function Footer() {
   return (
     <footer className="bg-nature-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* Company info */}
-          <div>
-            <h3 className="font-heading text-xl font-bold mb-3">
-              Grens Trädfällning
-            </h3>
-            <p className="text-white/70 text-sm leading-relaxed">
-              {COMPANY.tagline}
-            </p>
-            <p className="text-white/50 text-sm mt-4">
-              Verksamma i {SERVICE_AREAS.join(", ")}
-            </p>
-          </div>
-
-          {/* Quick links */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-10">
+          {/* Services */}
           <div>
             <h4 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/60">
-              Snabblänkar
+              Tjänster
             </h4>
             <nav className="flex flex-col gap-2">
-              {NAV_LINKS.map((link) => (
+              {SERVICE_LINKS.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
@@ -36,6 +40,38 @@ export function Footer() {
                   {link.label}
                 </a>
               ))}
+            </nav>
+          </div>
+
+          {/* Locations */}
+          <div>
+            <h4 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/60">
+              Områden
+            </h4>
+            <nav className="flex flex-col gap-2">
+              {LOCATION_LINKS.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-white/70 hover:text-white transition-colors"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+          </div>
+
+          {/* Company */}
+          <div>
+            <h4 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/60">
+              Företaget
+            </h4>
+            <nav className="flex flex-col gap-2">
+              <a href="/#om-oss" className="text-sm text-white/70 hover:text-white transition-colors">Om mig</a>
+              <a href="/#galleri" className="text-sm text-white/70 hover:text-white transition-colors">Referensjobb</a>
+              <a href="/#omdomen" className="text-sm text-white/70 hover:text-white transition-colors">Omdömen</a>
+              <a href="/#kontakt" className="text-sm text-white/70 hover:text-white transition-colors">Kontakt</a>
+              <a href="/integritetspolicy" className="text-sm text-white/70 hover:text-white transition-colors">Integritetspolicy</a>
             </nav>
           </div>
 
