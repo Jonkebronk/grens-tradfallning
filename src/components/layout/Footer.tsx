@@ -21,7 +21,7 @@ const LOCATION_LINKS = [
 ];
 
 const linkClass =
-  "text-sm text-white/80 hover:text-white underline decoration-white/30 underline-offset-2 transition-colors";
+  "text-sm text-white/90 hover:text-white underline decoration-white/40 underline-offset-2 transition-colors";
 
 export function Footer() {
   return (
@@ -78,14 +78,14 @@ export function Footer() {
             <div className="space-y-3">
               <a
                 href={COMPANY.phoneHref}
-                className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors"
               >
                 <Phone className="h-4 w-4" />
                 {COMPANY.phone}
               </a>
               <a
                 href={`mailto:${COMPANY.email}`}
-                className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors"
               >
                 <MailIcon className="h-4 w-4 shrink-0" />
                 {COMPANY.email}
@@ -94,7 +94,7 @@ export function Footer() {
                 href={COMPANY.instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors"
               >
                 <InstagramIcon className="h-4 w-4" />
                 Instagram
@@ -103,7 +103,7 @@ export function Footer() {
                 href={COMPANY.facebookUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/90 hover:text-white transition-colors"
               >
                 <FacebookIcon className="h-4 w-4" />
                 Facebook
@@ -112,7 +112,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-white/10 text-center text-sm text-white/60">
+        <div className="mt-10 pt-6 border-t border-white/10 text-center text-sm text-white/70">
           <p>
             &copy; {new Date().getFullYear()} {COMPANY.name}. Alla rättigheter
             förbehållna.
