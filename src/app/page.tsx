@@ -7,12 +7,13 @@ import { GallerySection } from "@/components/sections/GallerySection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { MessengerButton } from "@/components/shared/MessengerButton";
+import { MobileBottomBar } from "@/components/shared/MobileBottomBar";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex-1">
+      <main className="flex-1 pb-20 md:pb-0">
         <HeroSection />
         <ServicesSection />
         <AboutSection />
@@ -22,6 +23,7 @@ export default function Home() {
       </main>
       <Footer />
       <MessengerButton />
+      <MobileBottomBar />
     </>
   );
 }
