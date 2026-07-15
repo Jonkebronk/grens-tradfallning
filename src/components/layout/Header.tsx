@@ -64,7 +64,7 @@ export function Header() {
             <a
               href={COMPANY.phoneHref}
               className="sm:hidden p-3 -m-1 text-nature-700"
-              aria-label="Ring oss"
+              aria-label="Ring mig"
             >
               <Phone className="h-5 w-5" />
             </a>

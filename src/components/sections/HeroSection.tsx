@@ -54,7 +54,7 @@ export function HeroSection() {
                 })}
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Ring oss: {COMPANY.phone}
+                Ring mig: {COMPANY.phone}
               </a>
               <a
                 href="#kontakt"
