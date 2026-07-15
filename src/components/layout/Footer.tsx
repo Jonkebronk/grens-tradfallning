@@ -1,4 +1,4 @@
-import { Phone, Mail } from "lucide-react";
+import { Phone, Mail as MailIcon } from "lucide-react";
 import { InstagramIcon } from "@/components/shared/InstagramIcon";
 import { FacebookIcon } from "@/components/shared/FacebookIcon";
 import { COMPANY } from "@/lib/constants";
@@ -92,7 +92,7 @@ export function Footer() {
                 href={`mailto:${COMPANY.email}`}
                 className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
               >
-                <Mail className="h-4 w-4" />
+                <MailIcon className="h-4 w-4" />
                 {COMPANY.email}
               </a>
               <a
