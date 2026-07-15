@@ -29,13 +29,6 @@
 - Verifiera med video
 - Se Lokal_SEO_Guide_Svensk_Version.pdf för fullständig guide
 
-## 5. Plausible Analytics (valfritt)
-- Om du vill ha besöksstatistik utan cookies:
-  - Skapa konto på plausible.io (gratis 30 dagar, sedan ~90 kr/mån)
-  - Lägg till `grenstradfallning.se` som site
-  - Lägg `NEXT_PUBLIC_PLAUSIBLE_DOMAIN=grenstradfallning.se` i Vercel env vars
-  - Analytics-komponenten i koden är redan förberedd
-
 ## Redan gjort i koden
 - [x] Alla canonical-taggar pekar på `grenstradfallning.se`
 - [x] sitemap.xml använder `grenstradfallning.se`

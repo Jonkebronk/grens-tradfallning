@@ -20,6 +20,9 @@ const LOCATION_LINKS = [
   { href: "/omraden/lulea-skargard", label: "Luleå skärgård" },
 ];
 
+const linkClass =
+  "text-sm text-white/80 hover:text-white underline decoration-white/30 underline-offset-2 transition-colors";
+
 export function Footer() {
   return (
     <footer className="bg-nature-900 text-white">
@@ -27,16 +30,12 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-10">
           {/* Services */}
           <div>
-            <h4 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/60">
+            <h3 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/90">
               Tjänster
-            </h4>
+            </h3>
             <nav className="flex flex-col gap-2">
               {SERVICE_LINKS.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="text-sm text-white/70 hover:text-white transition-colors"
-                >
+                <a key={link.href} href={link.href} className={linkClass}>
                   {link.label}
                 </a>
               ))}
@@ -45,16 +44,12 @@ export function Footer() {
 
           {/* Locations */}
           <div>
-            <h4 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/60">
+            <h3 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/90">
               Områden
-            </h4>
+            </h3>
             <nav className="flex flex-col gap-2">
               {LOCATION_LINKS.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="text-sm text-white/70 hover:text-white transition-colors"
-                >
+                <a key={link.href} href={link.href} className={linkClass}>
                   {link.label}
                 </a>
               ))}
@@ -63,34 +58,34 @@ export function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/60">
+            <h3 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/90">
               Företaget
-            </h4>
+            </h3>
             <nav className="flex flex-col gap-2">
-              <a href="/#om-oss" className="text-sm text-white/70 hover:text-white transition-colors">Om mig</a>
-              <a href="/#galleri" className="text-sm text-white/70 hover:text-white transition-colors">Referensjobb</a>
-              <a href="/#omdomen" className="text-sm text-white/70 hover:text-white transition-colors">Omdömen</a>
-              <a href="/#kontakt" className="text-sm text-white/70 hover:text-white transition-colors">Kontakt</a>
-              <a href="/integritetspolicy" className="text-sm text-white/70 hover:text-white transition-colors">Integritetspolicy</a>
+              <a href="/#om-oss" className={linkClass}>Om mig</a>
+              <a href="/#galleri" className={linkClass}>Referensjobb</a>
+              <a href="/#omdomen" className={linkClass}>Omdömen</a>
+              <a href="/#kontakt" className={linkClass}>Kontakt</a>
+              <a href="/integritetspolicy" className={linkClass}>Integritetspolicy</a>
             </nav>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/60">
+            <h3 className="font-heading text-sm font-semibold uppercase tracking-wider mb-4 text-white/90">
               Kontakt
-            </h4>
+            </h3>
             <div className="space-y-3">
               <a
                 href={COMPANY.phoneHref}
-                className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
               >
                 <Phone className="h-4 w-4" />
                 {COMPANY.phone}
               </a>
               <a
                 href={`mailto:${COMPANY.email}`}
-                className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
               >
                 <MailIcon className="h-4 w-4 shrink-0" />
                 {COMPANY.email}
@@ -99,7 +94,7 @@ export function Footer() {
                 href={COMPANY.instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
               >
                 <InstagramIcon className="h-4 w-4" />
                 Instagram
@@ -108,7 +103,7 @@ export function Footer() {
                 href={COMPANY.facebookUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
+                className="flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors"
               >
                 <FacebookIcon className="h-4 w-4" />
                 Facebook
@@ -117,7 +112,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-white/10 text-center text-sm text-white/40">
+        <div className="mt-10 pt-6 border-t border-white/10 text-center text-sm text-white/60">
           <p>
             &copy; {new Date().getFullYear()} {COMPANY.name}. Alla rättigheter
             förbehållna.
@@ -128,7 +123,7 @@ export function Footer() {
               href="https://www.nortropic.se"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/60 hover:text-white transition-colors"
+              className="text-white/70 hover:text-white underline decoration-white/30 underline-offset-2 transition-colors"
             >
               Nortropic
             </a>

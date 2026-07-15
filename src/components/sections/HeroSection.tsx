@@ -28,7 +28,7 @@ export function HeroSection() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="max-w-2xl">
-          <ScrollReveal>
+          <div>
             <p className="text-sm font-semibold text-nature-600 uppercase tracking-wider mb-3">
               Trädfällning i Luleå &amp; Norrbotten
             </p>
@@ -40,7 +40,7 @@ export function HeroSection() {
               företag med säker och noggrann trädfällning i Luleåområdet. Från
               första kontakt till sista gren.
             </p>
-          </ScrollReveal>
+          </div>
 
           <ScrollReveal delay={0.15}>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
