@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Send, CheckCircle2 } from "lucide-react";
+import { trackEvent } from "@/components/shared/Analytics";
 
 const schema = z.object({
   name: z.string().min(2, "Ange ditt namn"),
@@ -21,6 +22,7 @@ type FormData = z.infer<typeof schema>;
 
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [honeypot, setHoneypot] = useState("");
   const {
     register,
     handleSubmit,
@@ -31,6 +33,11 @@ export function ContactForm() {
   });
 
   async function onSubmit(data: FormData) {
+    // Honeypot: if bot filled hidden field, silently pretend success
+    if (honeypot) {
+      setSubmitted(true);
+      return;
+    }
     const formId = process.env.NEXT_PUBLIC_FORMSPREE_ID;
     if (!formId) {
       // Fallback: open mailto
@@ -47,7 +54,10 @@ export function ContactForm() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     });
-    if (res.ok) setSubmitted(true);
+    if (res.ok) {
+      trackEvent("submit", "contact_form", "offertforfragan");
+      setSubmitted(true);
+    }
   }
 
   if (submitted) {
@@ -66,6 +76,17 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
+      {/* Honeypot — hidden from real users, bots fill it */}
+      <div className="absolute -left-[9999px]" aria-hidden="true">
+        <input
+          type="text"
+          name="website"
+          tabIndex={-1}
+          autoComplete="off"
+          value={honeypot}
+          onChange={(e) => setHoneypot(e.target.value)}
+        />
+      </div>
       <div>
         <Label htmlFor="name">Namn *</Label>
         <Input

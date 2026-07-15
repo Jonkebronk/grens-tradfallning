@@ -2,6 +2,7 @@
 
 import { Phone, ArrowDown } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
+import { trackEvent } from "@/components/shared/Analytics";
 import { COMPANY } from "@/lib/constants";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import Image from "next/image";
@@ -45,6 +46,7 @@ export function HeroSection() {
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
                 href={COMPANY.phoneHref}
+                onClick={() => trackEvent("click", "phone", "hero")}
                 className={buttonVariants({
                   size: "lg",
                   className:

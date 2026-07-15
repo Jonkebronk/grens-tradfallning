@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins, Open_Sans } from "next/font/google";
+import { Analytics } from "@/components/shared/Analytics";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -78,7 +79,10 @@ export default function RootLayout({
       <head>
         <script type="application/ld+json">{jsonLd}</script>
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

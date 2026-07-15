@@ -76,14 +76,14 @@ export function Header() {
             {/* Mobile: phone icon + hamburger */}
             <a
               href={COMPANY.phoneHref}
-              className="sm:hidden p-2 text-nature-700"
+              className="sm:hidden p-3 -m-1 text-nature-700"
               aria-label="Ring oss"
             >
               <Phone className="h-5 w-5" />
             </a>
             <button
               onClick={() => setMobileOpen(true)}
-              className="lg:hidden p-2 text-foreground"
+              className="lg:hidden p-3 -m-1 text-foreground"
               aria-label="Öppna meny"
             >
               <Menu className="h-6 w-6" />
