@@ -68,7 +68,7 @@ export function ContactForm() {
           Tack för din förfrågan!
         </h3>
         <p className="text-foreground/70">
-          Vi återkommer till dig så snart som möjligt.
+          Jag återkommer till dig så snart som möjligt.
         </p>
       </div>
     );

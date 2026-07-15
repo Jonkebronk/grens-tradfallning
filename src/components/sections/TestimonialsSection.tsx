@@ -12,8 +12,8 @@ export function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <SectionHeading
-            title="Vad våra kunder säger"
-            subtitle="Vi sätter en ära i att leverera kvalitet varje gång."
+            title="Vad mina kunder säger"
+            subtitle="Jag sätter en ära i att leverera kvalitet varje gång."
           />
         </ScrollReveal>
 

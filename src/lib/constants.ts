@@ -26,21 +26,21 @@ export const SERVICES = [
     id: "tradfallning",
     title: "Trädfällning",
     description:
-      "Professionell trädfällning inklusive precisionsfällning nära hus och byggnader. Vi hanterar grova tallar, björkar, aspar och flerstammiga träd.",
+      "Professionell trädfällning inklusive precisionsfällning nära hus och byggnader. Jag hanterar grova tallar, björkar, aspar och flerstammiga träd.",
     icon: "TreePine" as const,
   },
   {
     id: "gallring",
     title: "Gallring",
     description:
-      "Gallring av tomter för ökat ljusinsläpp och frigörande av kvällssol. Vi tar bort skymmande träd med precision.",
+      "Gallring av tomter för ökat ljusinsläpp och frigörande av kvällssol. Jag tar bort skymmande träd med precision.",
     icon: "Trees" as const,
   },
   {
     id: "vinschfallning",
     title: "Vinschassisterad fällning",
     description:
-      "Säker fällning av lutande och riskträd med Laski-vinsch. Vi hanterar träd med röta och svåra vinklar.",
+      "Säker fällning av lutande och riskträd med Laski-vinsch. Jag hanterar träd med röta och svåra vinklar.",
     icon: "Cable" as const,
   },
   {
@@ -88,7 +88,7 @@ export const GALLERY_ITEMS = [
 export const NAV_LINKS = [
   { href: "#hem", label: "Hem" },
   { href: "#tjanster", label: "Tjänster" },
-  { href: "#om-oss", label: "Om oss" },
+  { href: "#om-oss", label: "Om mig" },
   { href: "#galleri", label: "Galleri" },
   { href: "#omdomen", label: "Omdömen" },
   { href: "#kontakt", label: "Kontakt" },

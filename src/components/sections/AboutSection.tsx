@@ -9,7 +9,7 @@ export function AboutSection() {
     <section id="om-oss" className="py-20 md:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
-          <SectionHeading title="Om oss" />
+          <SectionHeading title="Om mig" />
         </ScrollReveal>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

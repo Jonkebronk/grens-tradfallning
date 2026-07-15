@@ -14,8 +14,8 @@ export function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <SectionHeading
-            title="Kontakta oss"
-            subtitle="Berätta om ditt projekt så återkommer vi med en offert."
+            title="Kontakta mig"
+            subtitle="Berätta om ditt projekt så återkommer jag med en offert."
           />
         </ScrollReveal>
 

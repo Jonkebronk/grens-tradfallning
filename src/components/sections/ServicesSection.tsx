@@ -17,7 +17,7 @@ const sellingPoints = [
   { icon: Sun, text: "Ökat ljusinsläpp och frigjord kvällssol på din tomt" },
   {
     icon: Shield,
-    text: "Precision runt byggnader – vi bevarar det som ska stå kvar",
+    text: "Precision runt byggnader – jag bevarar det som ska stå kvar",
   },
   {
     icon: TreePine,
@@ -31,8 +31,8 @@ export function ServicesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <SectionHeading
-            title="Våra tjänster"
-            subtitle="Vi erbjuder professionell trädfällning i Luleå med omnejd – allt från enstaka träd till större gallringar."
+            title="Mina tjänster"
+            subtitle="Jag erbjuder professionell trädfällning i Luleå med omnejd – allt från enstaka träd till större gallringar."
           />
         </ScrollReveal>
 
