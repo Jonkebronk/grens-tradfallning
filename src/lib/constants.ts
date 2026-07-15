@@ -6,8 +6,8 @@ export const COMPANY = {
   email: "markus.gren90@gmail.com",
   instagram: "grens_tradfallning",
   instagramUrl: "https://instagram.com/grens_tradfallning",
-  facebookUrl: "https://facebook.com/grenstradfallning",
-  messengerUrl: "https://m.me/grenstradfallning",
+  facebookUrl: "https://www.facebook.com/profile.php?id=61577624627170",
+  messengerUrl: "https://m.me/61577624627170",
   tagline: "Snabb, säker och prisvärd trädfällning i Luleå med RUT-avdrag",
 } as const;
 

@@ -1,5 +1,6 @@
 import { Phone, Mail } from "lucide-react";
 import { InstagramIcon } from "@/components/shared/InstagramIcon";
+import { FacebookIcon } from "@/components/shared/FacebookIcon";
 import { COMPANY, NAV_LINKS, SERVICE_AREAS } from "@/lib/constants";
 
 export function Footer() {
@@ -66,6 +67,15 @@ export function Footer() {
               >
                 <InstagramIcon className="h-4 w-4" />
                 @{COMPANY.instagram}
+              </a>
+              <a
+                href={COMPANY.facebookUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
+              >
+                <FacebookIcon className="h-4 w-4" />
+                Facebook
               </a>
             </div>
           </div>

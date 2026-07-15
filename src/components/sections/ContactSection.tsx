@@ -2,6 +2,7 @@
 
 import { Phone, Mail, MapPin } from "lucide-react";
 import { InstagramIcon } from "@/components/shared/InstagramIcon";
+import { FacebookIcon } from "@/components/shared/FacebookIcon";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { ContactForm } from "@/components/forms/ContactForm";
@@ -54,6 +55,15 @@ export function ContactSection() {
                   >
                     <InstagramIcon className="h-5 w-5 text-nature-600 shrink-0" />
                     @{COMPANY.instagram}
+                  </a>
+                  <a
+                    href={COMPANY.facebookUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 text-foreground/70 hover:text-nature-700 transition-colors"
+                  >
+                    <FacebookIcon className="h-5 w-5 text-nature-600 shrink-0" />
+                    Facebook
                   </a>
                 </div>
               </div>
