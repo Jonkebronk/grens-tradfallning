@@ -75,7 +75,6 @@ export function HeroSection() {
             <div className="mt-10 flex flex-wrap gap-4">
               {[
                 "RUT-avdrag 50%",
-                "Luleå & skärgården",
               ].map((badge) => (
                 <span
                   key={badge}
