@@ -83,6 +83,7 @@ export const GALLERY_ITEMS = [
   { src: "/images/gallery/5-husqvarna-sag.png", alt: "Husqvarna motorsåg i arbete" },
   { src: "/images/gallery/6-fallt-trad.png", alt: "Fällt träd vid fastighet" },
   { src: "/images/gallery/7-motorsag-stubbe.png", alt: "Motorsåg i stubbe efter fällning" },
+  { src: "/images/gallery/8-stubbfrasning-laski.jpg", alt: "Stubbfräsning med Laski-maskin" },
 ] as const;
 
 export const NAV_LINKS = [
