@@ -18,6 +18,7 @@ export const SERVICE_AREAS = [
   "Persön",
   "Brändön",
   "Luleå skärgård",
+  "Norrbotten",
 ] as const;
 
 export const SERVICES = [

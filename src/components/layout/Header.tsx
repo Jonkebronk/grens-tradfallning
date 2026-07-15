@@ -5,7 +5,6 @@ import { Phone, Menu } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { COMPANY, NAV_LINKS } from "@/lib/constants";
 import { MobileNav } from "./MobileNav";
-import Image from "next/image";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,22 +25,13 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#hem" className="flex items-center gap-2">
-            <Image
-              src="/images/logo.jpg"
-              alt="Grens Trädfällning logotyp"
-              width={40}
-              height={40}
-              className="rounded-md"
-            />
-            <div className="hidden sm:flex flex-col leading-tight">
-              <span className="font-heading text-lg font-bold text-nature-800">
-                Grens
-              </span>
-              <span className="font-heading text-xs font-medium text-nature-600 -mt-0.5">
-                Trädfällning
-              </span>
-            </div>
+          <a href="#hem" className="flex items-center gap-1.5">
+            <span className="font-heading text-xl md:text-2xl font-bold text-nature-800">
+              Grens
+            </span>
+            <span className="font-heading text-xl md:text-2xl font-bold text-nature-800">
+              Trädfällning
+            </span>
           </a>
 
           {/* Desktop nav */}

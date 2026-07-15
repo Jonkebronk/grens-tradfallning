@@ -36,7 +36,7 @@ export function HeroSection() {
               {COMPANY.tagline}
             </h1>
             <p className="mt-6 text-lg text-foreground/70 leading-relaxed max-w-xl">
-              Markus driver Grens Trädfällning och hjälper privatpersoner och
+              Jag driver Grens Trädfällning och hjälper privatpersoner och
               företag med säker och noggrann trädfällning i Luleåområdet. Från
               första kontakt till sista gren.
             </p>
@@ -75,7 +75,6 @@ export function HeroSection() {
             <div className="mt-10 flex flex-wrap gap-4">
               {[
                 "RUT-avdrag 50%",
-                "Husqvarna & Stihl",
                 "Luleå & skärgården",
               ].map((badge) => (
                 <span
