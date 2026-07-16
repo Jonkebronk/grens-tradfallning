@@ -1,5 +1,3 @@
-"use client";
-
 import { MessageCircle } from "lucide-react";
 import { COMPANY } from "@/lib/constants";
 

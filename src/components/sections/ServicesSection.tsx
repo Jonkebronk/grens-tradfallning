@@ -1,5 +1,3 @@
-"use client";
-
 import { TreePine, Trees, Cable, CircleDot, Sun, Shield } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { SectionHeading } from "@/components/shared/SectionHeading";

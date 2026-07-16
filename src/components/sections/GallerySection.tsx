@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";

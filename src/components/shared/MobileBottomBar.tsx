@@ -1,8 +1,5 @@
-"use client";
-
 import { Phone, MessageCircle, FileText } from "lucide-react";
 import { COMPANY } from "@/lib/constants";
-import { trackEvent } from "@/components/shared/Analytics";
 
 export function MobileBottomBar() {
   return (
@@ -15,7 +12,6 @@ export function MobileBottomBar() {
           {/* Ring */}
           <a
             href={COMPANY.phoneHref}
-            onClick={() => trackEvent("click", "phone", "mobile_bar")}
             className="flex-1 flex items-center justify-center gap-2 bg-nature-700 hover:bg-nature-800 text-white font-semibold text-sm py-3 rounded-xl transition-colors"
           >
             <Phone className="h-4 w-4" />
@@ -25,7 +21,6 @@ export function MobileBottomBar() {
           {/* Begär offert */}
           <a
             href="/#kontakt"
-            onClick={() => trackEvent("click", "offert", "mobile_bar")}
             className="flex-1 flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold text-sm py-3 rounded-xl transition-colors"
           >
             <FileText className="h-4 w-4" />
@@ -37,7 +32,6 @@ export function MobileBottomBar() {
             href={COMPANY.messengerUrl}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => trackEvent("click", "messenger", "mobile_bar")}
             className="flex-1 flex items-center justify-center gap-2 bg-[#0084FF] hover:bg-[#0073E6] text-white font-semibold text-sm py-3 rounded-xl transition-colors"
           >
             <MessageCircle className="h-4 w-4" />

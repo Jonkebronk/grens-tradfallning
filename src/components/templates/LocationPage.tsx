@@ -1,5 +1,3 @@
-"use client";
-
 import { Phone } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { Header } from "@/components/layout/Header";

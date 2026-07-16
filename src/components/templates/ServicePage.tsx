@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { Phone, ArrowRight } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
@@ -9,7 +7,6 @@ import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { MobileBottomBar } from "@/components/shared/MobileBottomBar";
 import { MessengerButton } from "@/components/shared/MessengerButton";
 import { COMPANY } from "@/lib/constants";
-import { trackEvent } from "@/components/shared/Analytics";
 
 type ServicePageProps = {
   title: string;
@@ -66,7 +63,6 @@ export function ServicePageTemplate({
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
                     href={COMPANY.phoneHref}
-                    onClick={() => trackEvent("click", "phone", "service_page")}
                     className={buttonVariants({
                       size: "lg",
                       className:

@@ -1,5 +1,3 @@
-"use client";
-
 import { Phone, Mail, MapPin } from "lucide-react";
 import { InstagramIcon } from "@/components/shared/InstagramIcon";
 import { FacebookIcon } from "@/components/shared/FacebookIcon";

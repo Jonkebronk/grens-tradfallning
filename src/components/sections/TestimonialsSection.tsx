@@ -1,5 +1,3 @@
-"use client";
-
 import { Star, Quote } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { SectionHeading } from "@/components/shared/SectionHeading";
