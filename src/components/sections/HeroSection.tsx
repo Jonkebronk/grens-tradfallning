@@ -57,7 +57,7 @@ export function HeroSection() {
                 Ring mig: {COMPANY.phone}
               </a>
               <a
-                href="#kontakt"
+                href="/#kontakt"
                 className={buttonVariants({
                   size: "lg",
                   className:

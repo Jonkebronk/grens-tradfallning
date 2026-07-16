@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Trädfällning Luleå kommun | Grens Trädfällning",
   description:
     "Trädfällning, gallring och stubbfräsning i Luleå. Precisionsfällning nära hus, RUT-avdrag. Ring 072-200 44 13 för offert.",
+  alternates: { canonical: "https://grenstradfallning.se/omraden/lulea" },
 };
 
 const services = [

@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Trädfällning i Persön | Grens Trädfällning",
   description:
     "Trädfällning och gallring i Persön utanför Luleå. Stubbfräsning, vinschfällning. RUT-avdrag. Ring 072-200 44 13.",
+  alternates: { canonical: "https://grenstradfallning.se/omraden/person" },
 };
 
 const services = [

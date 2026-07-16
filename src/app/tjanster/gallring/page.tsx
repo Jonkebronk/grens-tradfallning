@@ -12,8 +12,20 @@ export const metadata: Metadata = {
   },
 };
 
+const serviceJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Gallring",
+  description: "Gallring av tomter för ökat ljusinsläpp och frigörande av kvällssol i Luleå med omnejd.",
+  provider: { "@type": "LocalBusiness", name: "Grens Trädfällning" },
+  areaServed: "Luleå",
+  url: "https://grenstradfallning.se/tjanster/gallring",
+});
+
 export default function GallringPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serviceJsonLd }} />
     <ServicePageTemplate
       title="Gallring"
       h1="Gallring av tomter i Luleå – mer ljus och bättre utsikt"
@@ -40,5 +52,6 @@ export default function GallringPage() {
         { href: "/rut-avdrag", label: "RUT-avdrag" },
       ]}
     />
+    </>
   );
 }

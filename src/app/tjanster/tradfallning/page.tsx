@@ -13,8 +13,20 @@ export const metadata: Metadata = {
   },
 };
 
+const serviceJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Trädfällning",
+  description: "Professionell trädfällning och precisionsfällning nära hus och byggnader i Luleå med omnejd.",
+  provider: { "@type": "LocalBusiness", name: "Grens Trädfällning" },
+  areaServed: "Luleå",
+  url: "https://grenstradfallning.se/tjanster/tradfallning",
+});
+
 export default function TradfallningPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serviceJsonLd }} />
     <ServicePageTemplate
       title="Trädfällning"
       h1="Trädfällning i Luleå med RUT-avdrag"
@@ -46,5 +58,6 @@ export default function TradfallningPage() {
         { href: "/rut-avdrag", label: "RUT-avdrag" },
       ]}
     />
+    </>
   );
 }

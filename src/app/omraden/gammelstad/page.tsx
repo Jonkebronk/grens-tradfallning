@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Trädfällning i Gammelstad | Grens Trädfällning",
   description:
     "Trädfällning och gallring i Gammelstad, Luleå. Precisionsfällning på villatomter, stubbfräsning. RUT-avdrag. Ring 072-200 44 13.",
+  alternates: { canonical: "https://grenstradfallning.se/omraden/gammelstad" },
 };
 
 const services = [

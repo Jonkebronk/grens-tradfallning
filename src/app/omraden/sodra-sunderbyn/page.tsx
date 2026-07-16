@@ -20,11 +20,11 @@ export default function SodraSunderbynPage() {
     <LocationPageTemplate
       ort="Södra Sunderbyn"
       h1="Trädfällning i Södra Sunderbyn"
-      intro="Södra Sunderbyn ligger strax söder om Luleå och har många villatomter med uppvuxen skog. Jag utför trädfällning, gallring och stubbfräsning i området."
+      intro="Södra Sunderbyn ligger bara en kvart från Luleå centrum och har stora villakvarter med mogna tomter. Jag tar mig dit snabbt för trädfällning, gallring och stubbfräsning."
       body={[
-        "Villatomterna i Södra Sunderbyn har ofta tall och björk som planterades när husen byggdes och nu vuxit sig stora. Träd som står för nära husgrunden eller skuggar trädgården kan behöva fällas eller gallras.",
-        "Jag har erfarenhet av trånga tomter där träd måste fällas med precision. Med vinsch styr jag riktningen så att trädet faller säkert även när det lutar fel.",
-        "RUT-avdrag gäller på arbetskostnaden — du betalar halva priset. Stubbfräsning kan göras på samma besök.",
+        "Många hus i Södra Sunderbyn byggdes på 70- och 80-talet med tallar kvar på tomten. Nu är de 15-20 meter höga och skuggar hela trädgården. Selektiv gallring ger tillbaka ljuset utan att du förlorar vindskyddet — jag hjälper dig välja vilka som ska stå kvar.",
+        "Tomterna ligger ofta nära grannar, vilket kräver precision vid fällning. Jag använder vinsch och kilning för att styra riktningen exakt. Har du en tall som lutar mot garaget? Det är just den sortens jobb jag gör varje vecka.",
+        "RUT-avdrag gäller på arbetskostnaden — du betalar halva priset. Stubbfräsning kan göras direkt efter fällningen.",
       ]}
       services={services}
     />

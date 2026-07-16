@@ -12,8 +12,20 @@ export const metadata: Metadata = {
   },
 };
 
+const serviceJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Vinschassisterad fällning",
+  description: "Säker fällning av lutande och riskträd med Laski-vinsch i Luleå med omnejd.",
+  provider: { "@type": "LocalBusiness", name: "Grens Trädfällning" },
+  areaServed: "Luleå",
+  url: "https://grenstradfallning.se/tjanster/vinschfallning",
+});
+
 export default function VinschfallningPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serviceJsonLd }} />
     <ServicePageTemplate
       title="Vinschfällning"
       h1="Vinschassisterad fällning av riskträd i Luleå"
@@ -40,5 +52,6 @@ export default function VinschfallningPage() {
         { href: "/tjanster/stubbfrasning", label: "Stubbfräsning" },
       ]}
     />
+    </>
   );
 }

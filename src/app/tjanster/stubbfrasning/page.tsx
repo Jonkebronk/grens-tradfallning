@@ -13,8 +13,21 @@ export const metadata: Metadata = {
   },
 };
 
+const serviceJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Stubbfräsning",
+  description: "Maskinell stubbfräsning för en ren och plan tomt. Från 1 350 kr efter RUT-avdrag.",
+  provider: { "@type": "LocalBusiness", name: "Grens Trädfällning" },
+  areaServed: "Luleå",
+  url: "https://grenstradfallning.se/tjanster/stubbfrasning",
+  offers: { "@type": "Offer", price: "1350", priceCurrency: "SEK", description: "Första stubben efter RUT-avdrag" },
+});
+
 export default function StubbfrasningPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serviceJsonLd }} />
     <ServicePageTemplate
       title="Stubbfräsning"
       h1="Stubbfräsning i Luleå – ren och plan tomt"
@@ -43,5 +56,6 @@ export default function StubbfrasningPage() {
         { href: "/rut-avdrag", label: "RUT-avdrag & priser" },
       ]}
     />
+    </>
   );
 }

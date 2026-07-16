@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Trädfällning i Luleå skärgård | Grens Trädfällning",
   description:
     "Trädfällning i Luleå skärgård. Jag åker ut till öarna för fällning och gallring på stugtomter. RUT-avdrag. Ring 072-200 44 13.",
+  alternates: { canonical: "https://grenstradfallning.se/omraden/lulea-skargard" },
 };
 
 const services = [

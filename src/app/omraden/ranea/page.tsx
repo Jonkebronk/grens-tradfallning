@@ -20,11 +20,11 @@ export default function RaneaPage() {
     <LocationPageTemplate
       ort="Råneå"
       h1="Trädfällning i Råneå"
-      intro="Jag utför trädfällning och gallring i Råneå. Samhället ligger omgivet av tät barrskog och många villaägare behöver hjälp med träd som vuxit sig för stora eller skymmer ljuset."
+      intro="Råneå ligger längs E10 mellan Luleå och Boden, omgivet av tät skog. Jag åker dit regelbundet för trädfällning och gallring — det är bara tre mil från Luleå."
       body={[
-        "I Råneå finns ofta grova tallar nära bostäder som bör fällas innan de riskerar att falla vid storm. Jag bedömer trädet på plats och fäller det säkert — med vinsch om det lutar mot huset.",
-        "Gallring av tomter i Råneå gör stor skillnad. Genom att ta bort de rätta träden får du tillbaka ljuset utan att förlora vindskyddet mot älven.",
-        "RUT-avdrag gäller på arbetskostnaden. Stubbfräsning kan göras direkt efter fällningen.",
+        "Villaområdena i Råneå har typisk norrbottnisk tomtskog — tall och gran som stod där när husen byggdes och nu vuxit sig 20 meter höga. Stammar nära husgrunden behöver ibland vinschas ner för att undvika skador på tak och fasad.",
+        "Råneå älvdal ger fina tomtlägen men också fuktigt klimat som gynnar snabb tillväxt. En ordentlig gallring varannat-vart tredje år håller tomten ljus och framkomlig. Jag har gjort flera jobb i centrala Råneå och utmed älven.",
+        "RUT-avdrag gäller på arbetskostnaden — du betalar halva priset. Stubbfräsning kan göras på samma besök.",
       ]}
       services={services}
     />

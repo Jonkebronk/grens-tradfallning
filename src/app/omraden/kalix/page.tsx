@@ -20,11 +20,11 @@ export default function KalixPage() {
     <LocationPageTemplate
       ort="Kalix"
       h1="Trädfällning i Kalix"
-      intro="Jag åker till Kalix för trädfällning, gallring och skogsröjning. Kalix älvdal har kraftig skog och många fastigheter med träd som behöver tas ner eller gallras."
+      intro="Jag åker till Kalix för trädfällning, gallring och skogsröjning. Resan från Luleå tar drygt en timme och jag tar med all utrustning — motorsåg, vinsch och stubbfräs."
       body={[
-        "Fastigheter längs Kalixälven har ofta grov björk och tall som växt sig nära husen. Jag fäller säkert även i trånga lägen — med vinsch när det behövs. Gallring av tomter ger mer ljus under de korta vinterdagarna.",
-        "Stubbfräsning kan göras på samma besök så att tomten blir ren direkt. Jag tar med all utrustning och forslar bort riset.",
-        "RUT-avdrag gäller på arbetskostnaden — du betalar halva priset. Kontakta mig för en kostnadsfri bedömning.",
+        "Kalixdalen har grov barrskog och villatomter där tallarna ofta står tätt intill husen. Längs älven växer björkarna sig kraftiga och kan bli riskträd vid höststormarna. Jag har fällt grova tallar i bostadsområden i Kalix där vinsch var enda sättet att styra fällriktningen.",
+        "Många har också fritidshus uppåt älvdalen med tomter som växt igen. En ordentlig röjning och gallring gör stor skillnad — du får tillbaka utsikten mot älven och ljuset i stugan.",
+        "RUT-avdrag gäller på arbetskostnaden — du betalar halva priset. Stubbfräsning kan göras på samma besök.",
       ]}
       services={services}
     />

@@ -12,8 +12,20 @@ export const metadata: Metadata = {
   },
 };
 
+const serviceJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Skogsröjning",
+  description: "Röjning av sly, buskar och underväxt för framkomlig och ljus tomt i Luleå med omnejd.",
+  provider: { "@type": "LocalBusiness", name: "Grens Trädfällning" },
+  areaServed: "Luleå",
+  url: "https://grenstradfallning.se/tjanster/skogsrojning",
+});
+
 export default function SkogsrojningPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serviceJsonLd }} />
     <ServicePageTemplate
       title="Skogsröjning"
       h1="Skogsröjning i Luleå – framkomlig och ljus tomt"
@@ -32,5 +44,6 @@ export default function SkogsrojningPage() {
         { href: "/rut-avdrag", label: "RUT-avdrag" },
       ]}
     />
+    </>
   );
 }

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { HeroSection } from "@/components/sections/HeroSection";
@@ -9,6 +10,10 @@ import { ContactSection } from "@/components/sections/ContactSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { MessengerButton } from "@/components/shared/MessengerButton";
 import { MobileBottomBar } from "@/components/shared/MobileBottomBar";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://grenstradfallning.se" },
+};
 
 export default function Home() {
   return (

@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Trädfällning i Boden | Grens Trädfällning",
   description:
     "Trädfällning och stubbfräsning i Boden. Vinschfällning av riskträd, gallring av tomter. RUT-avdrag. Ring 072-200 44 13.",
+  alternates: { canonical: "https://grenstradfallning.se/omraden/boden" },
 };
 
 const services = [

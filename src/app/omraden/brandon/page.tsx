@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Trädfällning i Brändön | Grens Trädfällning",
   description:
     "Trädfällning och gallring i Brändön, Luleå. Stugtomter, fritidshus. RUT-avdrag på arbetskostnaden. Ring 072-200 44 13.",
+  alternates: { canonical: "https://grenstradfallning.se/omraden/brandon" },
 };
 
 const services = [
