@@ -1,10 +1,6 @@
-"use client";
-
 import { Phone, ArrowDown, Star } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
-import { trackEvent } from "@/components/shared/Analytics";
 import { COMPANY } from "@/lib/constants";
-import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import Image from "next/image";
 
 export function HeroSection() {
@@ -42,11 +38,9 @@ export function HeroSection() {
             </p>
           </div>
 
-          <ScrollReveal delay={0.15}>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+          <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
                 href={COMPANY.phoneHref}
-                onClick={() => trackEvent("click", "phone", "hero")}
                 className={buttonVariants({
                   size: "lg",
                   className:
@@ -68,10 +62,8 @@ export function HeroSection() {
                 Begär offert
               </a>
             </div>
-          </ScrollReveal>
 
           {/* Trust badges */}
-          <ScrollReveal delay={0.3}>
             <div className="mt-10 flex flex-wrap gap-4">
               <span className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm border border-nature-200 rounded-full text-sm font-medium text-nature-700">
                 RUT-avdrag 50%
@@ -87,7 +79,6 @@ export function HeroSection() {
                 Försäkrad
               </span>
             </div>
-          </ScrollReveal>
         </div>
       </div>
     </section>
