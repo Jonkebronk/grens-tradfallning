@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { Phone, Menu } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { COMPANY, NAV_LINKS } from "@/lib/constants";
@@ -26,9 +27,14 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="/#hem" className="shrink-0">
-            <span className="font-heading text-sm sm:text-xl md:text-2xl font-bold text-nature-800">
-              Grens Trädfällning
-            </span>
+            <Image
+              src="/images/logo.png"
+              alt="Grens Trädfällning"
+              width={48}
+              height={48}
+              className="h-10 w-auto md:h-12"
+              priority
+            />
           </a>
 
           {/* Desktop nav */}

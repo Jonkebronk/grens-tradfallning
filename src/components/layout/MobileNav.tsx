@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import {
   Sheet,
   SheetContent,
@@ -42,8 +43,14 @@ export function MobileNav({
       <SheetContent side="right" className="w-80 flex flex-col p-0">
         {/* Header */}
         <SheetHeader className="px-6 pt-6 pb-4 border-b border-border">
-          <SheetTitle className="font-heading text-lg text-nature-800">
-            Grens Trädfällning
+          <SheetTitle>
+            <Image
+              src="/images/logo.png"
+              alt="Grens Trädfällning"
+              width={40}
+              height={40}
+              className="h-10 w-auto"
+            />
           </SheetTitle>
         </SheetHeader>
 
