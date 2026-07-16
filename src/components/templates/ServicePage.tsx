@@ -174,6 +174,28 @@ export function ServicePageTemplate({
                   </a>
                 ))}
               </div>
+              <h2 className="font-heading text-xl font-bold text-nature-900 mt-8 mb-4">
+                Jag arbetar i
+              </h2>
+              <div className="flex flex-wrap gap-3">
+                {[
+                  { href: "/omraden/lulea", label: "Luleå" },
+                  { href: "/omraden/boden", label: "Boden" },
+                  { href: "/omraden/gammelstad", label: "Gammelstad" },
+                  { href: "/omraden/person", label: "Persön" },
+                  { href: "/omraden/brandon", label: "Brändön" },
+                  { href: "/omraden/lulea-skargard", label: "Luleå skärgård" },
+                ].map((s) => (
+                  <a
+                    key={s.href}
+                    href={s.href}
+                    className="inline-flex items-center gap-1.5 px-4 py-2 bg-white border border-nature-200 rounded-xl text-sm font-medium text-nature-700 hover:bg-nature-100 transition-colors"
+                  >
+                    {s.label}
+                    <ArrowRight className="h-3.5 w-3.5" />
+                  </a>
+                ))}
+              </div>
             </ScrollReveal>
           </div>
         </section>

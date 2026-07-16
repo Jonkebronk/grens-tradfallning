@@ -1,0 +1,5 @@
+interface:
+  display_name: "Vercel Geist Design"
+  short_description: "Apply Vercel Geist UI design rules"
+  default_prompt: "Use $vercel-geist-design to design a clean developer-focused interface."
+

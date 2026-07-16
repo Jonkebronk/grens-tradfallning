@@ -233,6 +233,14 @@ const faqJsonLd = JSON.stringify({
         text: "Jag arbetar i Luleå, Boden, Gammelstad, Persön, Brändön och Luleå skärgård. Kontakta mig om du är osäker — jag tar mig an jobb i hela Norrbotten.",
       },
     },
+    {
+      "@type": "Question",
+      name: "Kostar det att få en offert?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Nej, offerten är alltid kostnadsfri. Ring eller skicka en förfrågan så återkommer jag med ett prisförslag.",
+      },
+    },
   ],
 });
 

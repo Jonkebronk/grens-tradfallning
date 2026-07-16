@@ -39,15 +39,19 @@ export function ContactForm() {
       setSubmitted(true);
       return;
     }
-    const res = await fetch("/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
-    if (res.ok) {
-      trackEvent("submit", "contact_form", "offertforfragan");
-      setSubmitted(true);
-    } else {
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (res.ok) {
+        trackEvent("submit", "contact_form", "offertforfragan");
+        setSubmitted(true);
+      } else {
+        setServerError(true);
+      }
+    } catch {
       setServerError(true);
     }
   }

@@ -42,6 +42,10 @@ const FAQ_ITEMS = [
     q: "Vilka områden arbetar du i?",
     a: "Jag arbetar i Luleå, Boden, Gammelstad, Persön, Brändön och Luleå skärgård. Kontakta mig om du är osäker — jag tar mig an jobb i hela Norrbotten.",
   },
+  {
+    q: "Kostar det att få en offert?",
+    a: "Nej, offerten är alltid kostnadsfri. Ring eller skicka en förfrågan så återkommer jag med ett prisförslag.",
+  },
 ];
 
 export function FAQSection() {

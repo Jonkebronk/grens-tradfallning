@@ -24,7 +24,8 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: "Grens Trädfällning <onboarding@resend.dev>",
+      // TODO: Byt till "Grens Trädfällning <info@grenstradfallning.se>" efter domänverifiering i Resend
+      from: process.env.RESEND_FROM_EMAIL || "Grens Trädfällning <onboarding@resend.dev>",
       to: "markus.gren90@gmail.com",
       subject: `Offertförfrågan från ${name}`,
       replyTo: email || undefined,
