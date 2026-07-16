@@ -22,12 +22,12 @@ import { InstagramIcon } from "@/components/shared/InstagramIcon";
 import { FacebookIcon } from "@/components/shared/FacebookIcon";
 
 const navIcons: Record<string, React.ElementType> = {
-  "#hem": Home,
-  "#omdomen": Star,
-  "#tjanster": Wrench,
-  "#om-oss": User,
-  "#galleri": Camera,
-  "#kontakt": Mail,
+  "/#hem": Home,
+  "/#omdomen": Star,
+  "/#tjanster": Wrench,
+  "/#om-oss": User,
+  "/#galleri": Camera,
+  "/#kontakt": Mail,
 };
 
 export function MobileNav({
@@ -78,7 +78,7 @@ export function MobileNav({
             Ring {COMPANY.phone}
           </a>
           <a
-            href="#kontakt"
+            href="/#kontakt"
             onClick={onClose}
             className="flex items-center justify-center gap-2.5 w-full bg-amber-600 hover:bg-amber-700 text-white font-semibold text-[15px] py-3.5 rounded-xl transition-colors"
           >

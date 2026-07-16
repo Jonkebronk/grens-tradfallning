@@ -24,7 +24,7 @@ export function MobileBottomBar() {
 
           {/* Begär offert */}
           <a
-            href="#kontakt"
+            href="/#kontakt"
             onClick={() => trackEvent("click", "offert", "mobile_bar")}
             className="flex-1 flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold text-sm py-3 rounded-xl transition-colors"
           >

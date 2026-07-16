@@ -25,7 +25,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#hem" className="shrink-0">
+          <a href="/#hem" className="shrink-0">
             <span className="font-heading text-sm sm:text-xl md:text-2xl font-bold text-nature-800">
               Grens Trädfällning
             </span>
@@ -54,7 +54,7 @@ export function Header() {
               {COMPANY.phone}
             </a>
             <a
-              href="#kontakt"
+              href="/#kontakt"
               className={buttonVariants({ className: "hidden lg:inline-flex bg-amber-600 hover:bg-amber-700 text-white font-semibold" })}
             >
               Begär offert
