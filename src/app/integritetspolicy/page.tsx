@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Integritetspolicy | Grens Trädfällning",
   description:
     "Så hanterar Grens Trädfällning dina personuppgifter. Information om GDPR, dataskydd och dina rättigheter.",
+  alternates: { canonical: "https://grenstradfallning.se/integritetspolicy" },
 };
 
 export default function IntegritetspolicyPage() {
