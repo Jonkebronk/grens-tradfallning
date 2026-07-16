@@ -1,6 +1,6 @@
 "use client";
 
-import { TreePine, Trees, Cable, CircleDot, Axe, Sun, Shield } from "lucide-react";
+import { TreePine, Trees, Cable, CircleDot, Sun, Shield } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
@@ -11,7 +11,6 @@ const iconMap = {
   Trees,
   Cable,
   CircleDot,
-  Axe,
 } as const;
 
 const sellingPoints = [

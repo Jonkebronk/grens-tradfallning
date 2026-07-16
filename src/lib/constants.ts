@@ -34,9 +34,9 @@ export const SERVICES = [
   },
   {
     id: "gallring",
-    title: "Gallring",
+    title: "Gallring & röjning",
     description:
-      "Gallring av tomter för ökat ljusinsläpp och frigörande av kvällssol. Jag tar bort skymmande träd med precision.",
+      "Gallring och skogsröjning av tomter för ökat ljusinsläpp och framkomlig mark. Jag röjer underväxt och tar bort skymmande träd.",
     icon: "Trees" as const,
   },
   {
@@ -53,13 +53,6 @@ export const SERVICES = [
       "Maskinell stubbfräsning för en ren och plan tomt. Från 1 350 kr för första stubben, därefter 350 kr/stubbe (efter RUT-avdrag).",
     icon: "CircleDot" as const,
     priceExample: "Från 1 350 kr efter RUT (2 700 kr före avdrag)",
-  },
-  {
-    id: "skogsrojning",
-    title: "Skogsröjning",
-    description:
-      "Röjning av sly, buskar och underväxt för framkomlig och ljus tomt. Kombineras ofta med gallring.",
-    icon: "Axe" as const,
   },
 ] as const;
 
