@@ -1,12 +1,7 @@
 "use client";
 
-import { useRef } from "react";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef, useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-
-gsap.registerPlugin(ScrollTrigger);
 
 export function ScrollReveal({
   children,
@@ -20,33 +15,36 @@ export function ScrollReveal({
   stagger?: number;
 }) {
   const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
 
-  useGSAP(
-    () => {
-      if (!ref.current) return;
-      const targets = stagger
-        ? ref.current.children
-        : ref.current;
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
 
-      gsap.from(targets, {
-        opacity: 0,
-        y: 12,
-        duration: 0.35,
-        delay,
-        stagger: stagger || undefined,
-        ease: "power1.out",
-        scrollTrigger: {
-          trigger: ref.current,
-          start: "top 85%",
-          once: true,
-        },
-      });
-    },
-    { scope: ref }
-  );
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.15 }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <div ref={ref} className={cn(className)}>
+    <div
+      ref={ref}
+      className={cn(className)}
+      style={{
+        opacity: visible ? 1 : 0,
+        transform: visible ? "translateY(0)" : "translateY(12px)",
+        transition: `opacity 0.35s ease-out ${delay}s, transform 0.35s ease-out ${delay}s`,
+      }}
+    >
       {children}
     </div>
   );
