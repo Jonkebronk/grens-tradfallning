@@ -185,6 +185,9 @@ export function ServicePageTemplate({
                   { href: "/omraden/person", label: "Persön" },
                   { href: "/omraden/brandon", label: "Brändön" },
                   { href: "/omraden/lulea-skargard", label: "Luleå skärgård" },
+                  { href: "/omraden/kalix", label: "Kalix" },
+                  { href: "/omraden/ranea", label: "Råneå" },
+                  { href: "/omraden/sodra-sunderbyn", label: "Södra Sunderbyn" },
                 ].map((s) => (
                   <a
                     key={s.href}

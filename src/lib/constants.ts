@@ -18,6 +18,9 @@ export const SERVICE_AREAS = [
   "Persön",
   "Brändön",
   "Luleå skärgård",
+  "Kalix",
+  "Råneå",
+  "Södra Sunderbyn",
   "Norrbotten",
 ] as const;
 
@@ -50,6 +53,13 @@ export const SERVICES = [
       "Maskinell stubbfräsning för en ren och plan tomt. Från 1 350 kr för första stubben, därefter 350 kr/stubbe (efter RUT-avdrag).",
     icon: "CircleDot" as const,
     priceExample: "Från 1 350 kr efter RUT (2 700 kr före avdrag)",
+  },
+  {
+    id: "skogsrojning",
+    title: "Skogsröjning",
+    description:
+      "Röjning av sly, buskar och underväxt för framkomlig och ljus tomt. Kombineras ofta med gallring.",
+    icon: "Axe" as const,
   },
 ] as const;
 

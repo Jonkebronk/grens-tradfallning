@@ -12,6 +12,7 @@ const services = [
   { href: "/tjanster/gallring", label: "Gallring" },
   { href: "/tjanster/vinschfallning", label: "Vinschfällning" },
   { href: "/tjanster/stubbfrasning", label: "Stubbfräsning" },
+  { href: "/tjanster/skogsrojning", label: "Skogsröjning" },
 ];
 
 export default function BodenPage() {

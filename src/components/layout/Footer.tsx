@@ -8,6 +8,7 @@ const SERVICE_LINKS = [
   { href: "/tjanster/gallring", label: "Gallring" },
   { href: "/tjanster/vinschfallning", label: "Vinschfällning" },
   { href: "/tjanster/stubbfrasning", label: "Stubbfräsning" },
+  { href: "/tjanster/skogsrojning", label: "Skogsröjning" },
   { href: "/rut-avdrag", label: "RUT-avdrag" },
 ];
 
@@ -18,6 +19,9 @@ const LOCATION_LINKS = [
   { href: "/omraden/person", label: "Persön" },
   { href: "/omraden/brandon", label: "Brändön" },
   { href: "/omraden/lulea-skargard", label: "Luleå skärgård" },
+  { href: "/omraden/kalix", label: "Kalix" },
+  { href: "/omraden/ranea", label: "Råneå" },
+  { href: "/omraden/sodra-sunderbyn", label: "Södra Sunderbyn" },
 ];
 
 const linkClass =

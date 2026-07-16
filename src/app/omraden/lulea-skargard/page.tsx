@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 const services = [
   { href: "/tjanster/tradfallning", label: "Trädfällning" },
   { href: "/tjanster/gallring", label: "Gallring" },
+  { href: "/tjanster/skogsrojning", label: "Skogsröjning" },
 ];
 
 export default function LuleaSkargardPage() {

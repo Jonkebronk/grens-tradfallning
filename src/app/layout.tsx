@@ -83,6 +83,9 @@ const localBusinessJsonLd = JSON.stringify({
     { "@type": "City", name: "Luleå" },
     { "@type": "City", name: "Boden" },
     { "@type": "City", name: "Gammelstad" },
+    { "@type": "City", name: "Kalix" },
+    { "@type": "City", name: "Råneå" },
+    { "@type": "City", name: "Södra Sunderbyn" },
     { "@type": "AdministrativeArea", name: "Norrbotten" },
   ],
   priceRange: "$$",
@@ -159,6 +162,15 @@ const localBusinessJsonLd = JSON.stringify({
           name: "Stubbfräsning",
           description:
             "Maskinell stubbfräsning. Från 1 350 kr för första stubben efter RUT-avdrag.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Skogsröjning",
+          description:
+            "Röjning av sly, buskar och underväxt för framkomlig och ljus tomt.",
         },
       },
     ],

@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/tjanster/gallring`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/tjanster/vinschfallning`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/tjanster/stubbfrasning`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/tjanster/skogsrojning`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     // Ortssidor
     { url: `${BASE_URL}/omraden/lulea`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/omraden/boden`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
@@ -17,6 +18,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/omraden/person`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/omraden/brandon`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/omraden/lulea-skargard`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/omraden/kalix`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/omraden/ranea`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/omraden/sodra-sunderbyn`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     // Övrigt
     { url: `${BASE_URL}/rut-avdrag`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/integritetspolicy`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },

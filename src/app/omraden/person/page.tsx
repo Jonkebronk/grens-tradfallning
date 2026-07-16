@@ -11,6 +11,7 @@ const services = [
   { href: "/tjanster/tradfallning", label: "Trädfällning" },
   { href: "/tjanster/gallring", label: "Gallring" },
   { href: "/tjanster/stubbfrasning", label: "Stubbfräsning" },
+  { href: "/tjanster/skogsrojning", label: "Skogsröjning" },
 ];
 
 export default function PersonPage() {
